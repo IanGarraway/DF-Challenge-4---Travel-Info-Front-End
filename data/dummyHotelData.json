@@ -1,0 +1,2104 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1707843406096,
+    "data": {
+        "sortDisclaimer": "66 of 87 places are available, sorted by <span class=\"underline\">distance to me</span>",
+        "data": [
+            {
+                "id": "250131",
+                "title": "1. HYATT house San Ramon",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "San Ramon, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "836",
+                    "rating": 4.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/89/ea/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2447,
+                            "maxWidth": 3671,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b1/74/47/exterior-2.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2591,
+                            "maxWidth": 4300,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b1/74/3c/pool.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2839,
+                            "maxWidth": 4258,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b1/74/3e/pool-2.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "81779",
+                "title": "2. San Ramon Marriott",
+                "primaryInfo": null,
+                "secondaryInfo": "San Ramon, United States",
+                "badge": {
+                    "size": "SMALL",
+                    "type": "TRAVELLER_CHOICE",
+                    "year": "2023"
+                },
+                "bubbleRating": {
+                    "count": "565",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/43/32/4a/presidential-suite-living.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5f/b5/dc/guest-room-work-desk.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5f/b5/db/double-guestroom-with.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5f/b5/da/king-guestroom-with-large.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80838",
+                "title": "3. La Quinta Inn & Suites by Wyndham Dublin - Pleasanton",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Dublin, United States",
+                "badge": {
+                    "size": "SMALL",
+                    "type": "TRAVELLER_CHOICE",
+                    "year": "2023"
+                },
+                "bubbleRating": {
+                    "count": "595",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 686,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b0/cd/07/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b0/cd/43/business-center.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b0/cd/41/property-amenity.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b0/cd/3f/property-amenity.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "20099257",
+                "title": "4. Residence Inn by Marriott Livermore",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Livermore, United States",
+                "badge": {
+                    "size": "SMALL",
+                    "type": "TRAVELLER_CHOICE",
+                    "year": "2023"
+                },
+                "bubbleRating": {
+                    "count": "74",
+                    "rating": 5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/03/8e/f8/exterior-view-of-hotel.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 3744,
+                            "maxWidth": 5616,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c1/b1/b7/residence-inn-by-marriott.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 3777,
+                            "maxWidth": 5665,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/f9/24/69/residence-inn-livermore.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/03/8f/47/meeting-room-with-tables.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "225913",
+                "title": "5. The Rose Hotel",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "268",
+                    "rating": 4.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1500,
+                            "maxWidth": 2000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/55/0e/7f/big-bed.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1500,
+                            "maxWidth": 1936,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/52/96/d5/the-rose-hotel.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 369,
+                            "maxWidth": 454,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/52/8e/ff/the-rose-hotel.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1500,
+                            "maxWidth": 1350,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/52/8e/54/the-rose-hotel.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "235451",
+                "title": "6. Extended Stay America - San Ramon - Bishop Ranch - East",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "San Ramon, United States",
+                "badge": {
+                    "size": "SMALL",
+                    "type": "TRAVELLER_CHOICE",
+                    "year": "2023"
+                },
+                "bubbleRating": {
+                    "count": "164",
+                    "rating": 4.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 658,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/6a/e2/4c/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 658,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/6a/e2/86/on-premise-guest-laundry.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 658,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/6a/e2/85/swimming-pool.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 658,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/6a/e2/84/swimming-pool.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80745",
+                "title": "7. Hampton Inn Livermore-East Bay",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Livermore, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "776",
+                    "rating": 4.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ed/14/c0/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ed/15/00/business-center.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ed/14/ff/property-amenity.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ed/14/fe/guest-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "79333",
+                "title": "8. DoubleTree By Hilton Hotel Pleasanton At The Club",
+                "primaryInfo": null,
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "841",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/1e/35/48/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1024,
+                            "maxWidth": 1536,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ef/60/15/doubletree-by-hilton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1024,
+                            "maxWidth": 1536,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ef/5e/a1/doubletree-by-hilton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 3000,
+                            "maxWidth": 4499,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/c1/63/5a/doubletree-by-hilton.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "617187",
+                "title": "9. Best Western Danville Sycamore Inn",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Danville, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "388",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/1b/e5/90/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/1b/e5/dc/king-ada-bathroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/1b/e5/da/standard-bathroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/1b/e5/d8/standard-bathroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80847",
+                "title": "10. Hyatt Place Dublin/Pleasanton",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Dublin, United States",
+                "badge": {
+                    "size": "SMALL",
+                    "type": "TRAVELLER_CHOICE",
+                    "year": "2023"
+                },
+                "bubbleRating": {
+                    "count": "864",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 679,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/c7/19/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 366,
+                            "maxWidth": 550,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/c2/2b/32/gallery-kitchen.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 225,
+                            "maxWidth": 550,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/c2/2b/33/king-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/71/e6/4f/pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "248436",
+                "title": "11. Hawthorn Suites by Wyndham Livermore Wine Country",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Livermore, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "601",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cf/7e/7e/welcome-to-the-hawthorn.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2000,
+                            "maxWidth": 3000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b1/ca/3b/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2000,
+                            "maxWidth": 3000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b1/ca/39/standard-studio-suite.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2000,
+                            "maxWidth": 3000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b1/ce/0b/front-desk.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "13511733",
+                "title": "12. Aloft Dublin-Pleasanton",
+                "primaryInfo": null,
+                "secondaryInfo": "Dublin, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "120",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/01/50/75/exterior-night.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 4032,
+                            "maxWidth": 3024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/7d/98/72/aloft-dublin-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/01/50/99/tactic.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/01/50/98/tactic-expanded.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "1097898",
+                "title": "13. Pleasanton Marriott",
+                "primaryInfo": null,
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "428",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Marriott Hotels",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/d7/a5/greatroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/1d/af/05/pleasanton-marriott-hotel.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/1d/af/01/pleasanton-marriott-hotel.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/1d/ae/ee/pleasanton-marriott-hotel.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Marriott Hotels",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "21157008",
+                "title": "14. Homewood Suites by Hilton Livermore",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Livermore, United States",
+                "badge": {
+                    "size": "SMALL",
+                    "type": "TRAVELLER_CHOICE",
+                    "year": "2023"
+                },
+                "bubbleRating": {
+                    "count": "92",
+                    "rating": 5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 3554,
+                            "maxWidth": 5277,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/69/d7/a7/homewood-suites-by-hilton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1024,
+                            "maxWidth": 1534,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/9a/ef/48/getlstd-property-photo.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/fb/22/01/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 3953,
+                            "maxWidth": 5930,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/69/d8/e3/homewood-suites-by-hilton.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "12199389",
+                "title": "15. Home2 Suites by Hilton Livermore",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Livermore, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "242",
+                    "rating": 4.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/73/85/6d/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1024,
+                            "maxWidth": 1536,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/8b/85/88/getlstd-property-photo.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/73/85/b1/business-center.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/73/85/b0/guest-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "224350",
+                "title": "16. Hampton Inn Oakland-Hayward",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Hayward, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "569",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/7a/f2/87/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/7a/f2/7f/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/7a/f2/e8/business-center.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 683,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/7a/f2/e4/guest-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "543137",
+                "title": "17. Larkspur Landing Pleasanton",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "233",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 675,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/07/71/93/studio-suite.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 562,
+                            "maxWidth": 800,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3f/60/97/larkspur-landing-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 498,
+                            "maxWidth": 800,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3f/60/96/larkspur-landing-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 550,
+                            "maxWidth": 800,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3f/60/94/larkspur-landing-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80331",
+                "title": "18. Residence Inn by Marriott Pleasanton",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "260",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Residence Inn",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/ea/3f/d5/residence-inn-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2663,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/ea/3f/cd/residence-inn-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/ea/3f/d2/residence-inn-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/ea/3f/cf/residence-inn-pleasanton.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Residence Inn",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "222970",
+                "title": "19. Holiday Inn Express Castro Valley",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Castro Valley, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "271",
+                    "rating": 4.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 4480,
+                            "maxWidth": 6720,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/30/2b/32/welcome-to-holiday-inn.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1183,
+                            "maxWidth": 2000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ab/7b/da/holiday-inn-express-castro.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1333,
+                            "maxWidth": 2000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/c3/24/6f/holiday-inn-express-castro.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1333,
+                            "maxWidth": 2000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/c3/24/69/holiday-inn-express-castro.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "217279",
+                "title": "20. Hyatt House Pleasanton",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "788",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/89/89/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/89/de/pool.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/89/dd/restaurant.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/89/dc/bar-lounge.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "217276",
+                "title": "21. AC Hotel by Marriott Pleasanton",
+                "primaryInfo": null,
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "39",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "AC Hotels",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/03/86/3c/outdoor-patio-firepit.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/62/da/f9/ac-lounge-signature-gintonic.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/62/da/fa/ac-lounge-june-bloom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/62/da/fb/king-suite-mountain-view.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "AC Hotels",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "79323",
+                "title": "22. Courtyard by Marriott Pleasanton",
+                "primaryInfo": null,
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "201",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/1c/59/58/lobby.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/1c/59/80/pleasanton-ridge-classroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/1c/59/7f/hopyard-meeting-space.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/1c/59/7e/fitness-center-cardio.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80082",
+                "title": "23. Sonesta Select San Ramon",
+                "primaryInfo": null,
+                "secondaryInfo": "San Ramon, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "198",
+                    "rating": 3.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5f/91/d9/sonesta-select-san-ramon.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/93/8c/fb/sonesta-select-san-ramon.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/93/8c/fa/sonesta-select-san-ramon.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 682,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/93/8c/f9/sonesta-select-san-ramon.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "119597",
+                "title": "24. Hilton Garden Inn Livermore",
+                "primaryInfo": null,
+                "secondaryInfo": "Livermore, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "622",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 679,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/64/93/26/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 679,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/64/93/a4/guest-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 679,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/64/93/a3/guest-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 679,
+                            "maxWidth": 1023,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/64/93/a0/guest-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "79338",
+                "title": "25. Best Western Plus Pleasanton Inn",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Pleasanton, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "416",
+                    "rating": 3.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 576,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/01/8a/92/hotel-exterior-at-night.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 768,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/3d/13/a9/king-bedroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 681,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/3d/13/a8/two-bed-guest-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 791,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/3d/13/a7/other-hotel-servicesamenities.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "77160",
+                "title": "26. Best Western Plus Inn Of Hayward",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Hayward, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "356",
+                    "rating": 3.5
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 576,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/00/48/45/hotel-exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 768,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/64/47/7c/queen-bedroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 768,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/64/47/7b/queen-bedroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 768,
+                            "maxWidth": 1024,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/64/47/7a/king-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "564537",
+                "title": "27. Holiday Inn Express Livermore",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "Livermore, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "132",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 4000,
+                            "maxWidth": 5915,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/f3/a4/hotel-near-livermore.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 4912,
+                            "maxWidth": 7360,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/f3/c7/at-the-end-of-a-long.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2894,
+                            "maxWidth": 3859,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/f3/c6/mobility-access-shower.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 3770,
+                            "maxWidth": 5655,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/f3/c5/spacious-marble-finished.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80750",
+                "title": "28. Courtyard by Marriott Livermore",
+                "primaryInfo": null,
+                "secondaryInfo": "Livermore, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "101",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/64/7f/28/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/64/7f/4a/event-catering.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/64/7f/49/conference-room-classroom.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/64/7f/48/conference-room.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80845",
+                "title": "29. Holiday Inn Dublin-Pleasanton, an IHG Hotel",
+                "primaryInfo": null,
+                "secondaryInfo": "Dublin, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "300",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Booking.com",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2560,
+                            "maxWidth": 3840,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0c/6f/c9/welcome-to-the-holiday.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1500,
+                            "maxWidth": 2000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/16/c1/9c/holiday-inn-dublin.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1500,
+                            "maxWidth": 2000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/16/c1/92/holiday-inn-dublin.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 1500,
+                            "maxWidth": 2000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/16/c1/87/holiday-inn-dublin.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Booking.com",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            },
+            {
+                "id": "80077",
+                "title": "30. Residence Inn by Marriott San Ramon",
+                "primaryInfo": "Free breakfast included",
+                "secondaryInfo": "San Ramon, United States",
+                "badge": {},
+                "bubbleRating": {
+                    "count": "123",
+                    "rating": 4
+                },
+                "isSponsored": false,
+                "accentedLabel": false,
+                "provider": "Residence Inn",
+                "priceForDisplay": null,
+                "strikethroughPrice": null,
+                "priceDetails": null,
+                "priceSummary": null,
+                "cardPhotos": [
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/1c/8b/ed/lobby.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/20/7e/82/exterior.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/1c/8b/ec/two-bedroom-suite-kitchen.jpg?w={width}&h={height}&s=1"
+                        }
+                    },
+                    {
+                        "__typename": "AppPresentation_PhotoItem",
+                        "sizes": {
+                            "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                            "maxHeight": 2667,
+                            "maxWidth": 4000,
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/20/7e/95/fitness-center.jpg?w={width}&h={height}&s=1"
+                        }
+                    }
+                ],
+                "commerceInfo": {
+                    "provider": "Residence Inn",
+                    "loadingMessage": {
+                        "text": "Loading prices..."
+                    },
+                    "priceForDisplay": null,
+                    "strikethroughPrice": null,
+                    "pricingPeriod": null,
+                    "details": null,
+                    "commerceSummary": null,
+                    "roomUrgencyMessage": null,
+                    "labels": []
+                }
+            }
+        ]
+    }
+}
