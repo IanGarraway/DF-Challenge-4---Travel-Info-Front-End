@@ -43,7 +43,8 @@ The Business Analyst team working with DFCorp has identified the following featu
 - The user should see a location search box when they access the application home page that allows them to search any town or city by name (as per the wireframe supplied)
 - The application should send a query to a weather API to get a 5-day forecast if the location can be found
 - When the forecast data is returned, a new view should be displayed, using the wireframe(s) for the view layout
-- The user should be able to save a location as a favourite (although this should only persist on the device they are using at the time)
+- The user should be able to register an account for the system using their email and a password (that has at least 8 characters, at least 1 uppercase character, a number and a special character)
+- The user should be able to save a location as a favourite
 - The application should be responsive across the main breakpoints for devices (mobile, tablet, desktop) - wireframes are provided for each of these
 
 The layouts are pretty much agreed with the main stakeholder but they are open for you to put your creative flair into the colour scheme and any images used (that are not specific to the location content).  They are also open to suggestions for the name of the application and its logo.
@@ -80,7 +81,7 @@ Ensure that the application that you submit will run in the development environm
 ## Tips
 
 - Commit regularly to GitHub with clear commit messages - write a failing test, pass the test, commit, etc
-- You should put your component hierarchies, state identification notation and test plans in the markdown file in the `docs` folder, if you decide to use some form of Scrum board to track your progress, you should include a screenshot of this in the markdown file
+- You should put your component hierarchies, state identification notation and test plans in the markdown file in the `docs` folder, you should use some form of Scrum board to track your progress and should include a screenshot of this in the markdown file
 - Structure your `src` folder with suitable sub-folders to help identify groups of components
 
 ---
@@ -240,7 +241,7 @@ const mapElement = useRef();
 
 ---
 
-### Hotel API
+### Hotel API - API needs checking!
 
 For hotel information, you can use the free ***RapidAPI*** to access the ***[Priceline.com](https://rapidapi.com/davidtaoweiji/api/priceline-com/)*** API by signing up for a free developer key.
 
