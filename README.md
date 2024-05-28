@@ -241,7 +241,7 @@ const mapElement = useRef();
 
 ---
 
-### Hotel API - API needs checking!
+### Hotel API
 
 For hotel information, you can use the free ***RapidAPI*** to access the Booking.com API by signing up for a free developer key.  You will need to investigate HOW to use this in your app.
 
