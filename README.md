@@ -40,11 +40,12 @@ DFCorp are interested in expanding their portfolio of applications that you have
 
 The Business Analyst team working with DFCorp has identified the following features that should be implemented:
 
-- The user should see a location search box when they access the application home page that allows them to search any town or city by name (as per the wireframe supplied)
+- All users should see a location search box when they access the application home page that allows them to search any town or city by name (as per the wireframe supplied)
 - The application should send a query to a weather API to get a 5-day forecast if the location can be found
 - When the forecast data is returned, a new view should be displayed, using the wireframe(s) for the view layout
-- The user should be able to register an account for the system using their email and a password (that has at least 8 characters, at least 1 uppercase character, a number and a special character)
-- The user should be able to save a location as a favourite
+- The user should be able to register an account for the system using their email and a password (that has at least 8 characters, at least 1 uppercase character, a number and a special character) and see a message confirming the sign up and then be displayed a log in form
+- The user should be able to log in to their account via the same form displayed after a successful sign up
+- Logged in users should be able to add or remove a location as a favourite (from the Tell me about page) and view and manage their favourite locations on a separate page
 - The application should be responsive across the main breakpoints for devices (mobile, tablet, desktop) - wireframes are provided for each of these
 
 The layouts are pretty much agreed with the main stakeholder but they are open for you to put your creative flair into the colour scheme and any images used (that are not specific to the location content).  They are also open to suggestions for the name of the application and its logo.
