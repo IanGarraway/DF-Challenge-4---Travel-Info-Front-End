@@ -12,7 +12,7 @@ import SavedList from "./SavedList.jsx"
 import isMobile from "../utils/MobileDetector.js";
 
 
-const Header = ({savedLocations}) => {
+const Header = ({savedLocations},{location}) => {
 
     if (isMobile()) {
         return (
@@ -26,14 +26,13 @@ const Header = ({savedLocations}) => {
                     <Navbar variant = "dark" key={false} expand={false} className="p-3 mb-2 bg-gradient-dark text-white">
                      <Container fluid>
                         <Navbar.Brand href="#"></Navbar.Brand>
-                        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />
+                        <Navbar.Toggle/>
                         <Navbar.Offcanvas
-                        id={`offcanvasNavbar-expand-${false}`}
-                        aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}
+                        
                         placement="end"
                         >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
+                            <Offcanvas.Title >
                             DFC Travel
                             </Offcanvas.Title>
                         </Offcanvas.Header>
