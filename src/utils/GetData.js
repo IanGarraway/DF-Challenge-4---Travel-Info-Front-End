@@ -9,8 +9,7 @@ class GetData {
         return dummyHotel;
     }
 
-    static locations() {
-        console.log(`getdate: ${dummyUserLocations["User Locations"]}`);
+    static locations() {        
         return dummyUserLocations["User Locations"];
     }
 

@@ -9,15 +9,10 @@ const SavedList = ({ savedLocations }) => {
     let dropDownItems = [];
 
     savedLocations.forEach(savedLocation => {
-        console.log(`name: ${savedLocation}`);
+        
         dropDownItems.push(<SavedListRow savedLocation={savedLocation} key={savedLocation.id}/>);
         
     });
-
-    console.log("output");
-    console.log(dropDownItems);
-    console.log("end output");
-    
 
     return (
         <>
