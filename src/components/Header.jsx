@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -12,7 +13,10 @@ import SavedList from "./SavedList.jsx"
 import isMobile from "../utils/MobileDetector.js";
 
 
-const Header = ({savedLocations},{location}) => {
+const Header = ({ location, savedLocations, user }) => {
+    
+    const notHomePage = (location != "Home")
+    const locationsSaved = (savedLocations.length > 0);
 
     if (isMobile()) {
         return (
@@ -26,29 +30,25 @@ const Header = ({savedLocations},{location}) => {
                     <Navbar variant = "dark" key={false} expand={false} className="p-3 mb-2 bg-gradient-dark text-white">
                      <Container fluid>
                         <Navbar.Brand href="#"></Navbar.Brand>
-                        <Navbar.Toggle/>
+                        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`}/>
                         <Navbar.Offcanvas
-                        
+                        id={`offcanvasNavbar-expand-${false}`}
+                        aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}
                         placement="end"
                         >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title >
+                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`} >
                             DFC Travel
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">Home</Nav.Link>                            
+                            <Nav.Link href="#action1">Home</Nav.Link>
                             <SavedList savedLocations={savedLocations} />
                             </Nav>
                             <Form className="d-flex">
-                            <Form.Control
-                                type="search"
-                                placeholder="Location Search..."
-                                className="me-2"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
+                                            {notHomePage && <Form.Control type="search" placeholder="Location Search..." className="me-2" aria-label="Search" />}
+                                            {notHomePage && <Button variant="outline-success">Search</Button>}
                             </Form>
                         </Offcanvas.Body>
                         </Navbar.Offcanvas>
@@ -68,11 +68,11 @@ const Header = ({savedLocations},{location}) => {
             <div className="Header">
                 <div id = "leftSide">
                     <img className="logo" src="src\assets\logo.jpg" alt="DFC Travel Agency Logo" />
-                    <Button className = "headerButtons" href="#" type = "submit">Home</Button>{' '}
+                    <Button className = "headerButtons" href="#" type = "submit">Home</Button>{``}
                     <SavedList savedLocations={savedLocations} />
                 </div>
                 <div id = "rightSide">
-                    <input type="search" placeholder="Location Search..." id="searchBox" aria-label="Search" />
+                    {notHomePage && <input type="search" placeholder="Location Search..." id="searchBox" aria-label="Search" />}
                 </div>
             </div>
         </>

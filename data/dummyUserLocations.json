@@ -2,15 +2,15 @@
     "User Locations": [
         {
            "id": "1",
-            "Name": "Dublin, USA"
+            "name": "Dublin, USA"
         },
         {
             "id": "2",
-            "Name": "London, UK"
+            "name": "London, UK"
         },
         {
             "id": "3",
-            "Name": "Leeds, UK"
+            "name": "Leeds, UK"
         }
    ]
 }

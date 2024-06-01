@@ -1,22 +1,37 @@
 import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
+import SavedListRow from "./SavedListRow";
 
 //import "./SavedList.css"
 
-function SavedList({ savedLocations }) {
+const SavedList = ({ savedLocations }) => {
+
+    let dropDownItems = [];
+
+    savedLocations.forEach(savedLocation => {
+        console.log(`name: ${savedLocation}`);
+        dropDownItems.push(<SavedListRow savedLocation={savedLocation} key={savedLocation.id}/>);
+        
+    });
+
+    console.log("output");
+    console.log(dropDownItems);
+    console.log("end output");
+    
+
     return (
-        <Dropdown >
-            <Dropdown.Toggle variant="success" id="dropdown-basic" className = "headerButtons">
-                Favourites
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Place</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another Place</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Some other Place</Dropdown.Item>
-                <Dropdown.Divider />
-                <Dropdown.Item href="#/action-4">Favourites</Dropdown.Item>
-            </Dropdown.Menu>
-        </Dropdown>
+        <>
+            <Dropdown>
+                <Dropdown.Toggle variant="success" id="dropdown-basic" className = "headerButtons">
+                    Favourites
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                    {dropDownItems}
+                    <Dropdown.Divider />
+                    <Dropdown.Item href="#/action-4">Favourites</Dropdown.Item>
+                </Dropdown.Menu>                
+            </Dropdown>
+        </>
     );
 }
 

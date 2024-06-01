@@ -6,6 +6,9 @@ import React, {useState, useEffect} from "react";
 const App = () => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [location, setLocation] = useState(["a"]);
+    const [savedLocations, setSavedLocations] = useState([]);
+    const [user, setUser] = useState({});
  
     useEffect(() => {
         const handleResize = () => {
@@ -18,9 +21,19 @@ const App = () => {
         };
     }, []);
 
+    const getLocations = () => {
+        setSavedLocations(GetData.locations());
+    }
+
+    useEffect(() => {
+        getLocations();
+    }, []);
+
+    
+
 
     return <>
-        <Header />
+        <Header location={location} savedLocations ={savedLocations} user = {user} />
         <div>Body</div>
         <Footer />
         

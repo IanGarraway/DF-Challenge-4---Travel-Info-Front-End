@@ -6,11 +6,12 @@ import dummyWeather from "../../data/dummyWeatherData.json"
 class GetData {
 
     static hotel() {
-        return dummyHotel;        
+        return dummyHotel;
     }
 
     static locations() {
-        return dummyUserLocations;
+        console.log(`getdate: ${dummyUserLocations["User Locations"]}`);
+        return dummyUserLocations["User Locations"];
     }
 
     static weather() {
