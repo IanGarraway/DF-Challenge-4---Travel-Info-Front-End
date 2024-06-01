@@ -37,4 +37,3 @@ There should also be a log in/log out component on the right hand side, which co
 ### Reasoning
 
 The home page is relatively simple. It consists of the header, the footer, a search box and a button to submit the search which can fit on a single component for the page which calls the header and footer. No additional components are needed. The triggering user action will be a button press or the user hitting the enter key while typing in the location name box. The only data that needs to be passed in therefore is the data for the header and if an error message needs to be passed onto the user. Entering a location will trigger a request to the server for information about the location entered. This in turn will trigger a state change to the location data which will either trigger the home page to update with a location not found message to the user if the place name is invalid or trigger the site to load the telling you about page for that location.
-

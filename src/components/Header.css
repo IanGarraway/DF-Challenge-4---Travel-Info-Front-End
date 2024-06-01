@@ -1,0 +1,40 @@
+.Header{
+    background-color: darkblue;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;    
+    width: 100%;
+    padding: 10px;
+}
+
+
+.logo{
+    max-width: 70px;
+    border-radius:50%;
+}
+
+.headerButtons{
+    height: 100%;
+    background-color: darkblue !important;
+    border: 0px !important;
+    text-align: bottom !important;
+    
+}
+#leftSide{
+    display: flex;
+    align-items: center;
+
+}
+#rightSide{
+    display: flex;
+    align-items: center;
+}
+
+#searchBox{         
+    margin-right: 20px;
+    
+}
+
+#menu{
+    background-color: darkblue ;
+}
