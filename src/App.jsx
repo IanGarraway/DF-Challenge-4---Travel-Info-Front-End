@@ -1,7 +1,14 @@
-import GetData from "./utils/GetData.js";
+import React, {useState, useEffect} from "react";
+
+//pages
+import Login from "./pages/Login.jsx";
+
+//components
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
-import React, {useState, useEffect} from "react";
+
+//utilities
+import GetData from "./utils/GetData.js";
 
 const App = () => {
 
@@ -34,7 +41,8 @@ const App = () => {
 
     return <>
         <Header location={location} savedLocations ={savedLocations} user = {user} />
-        <div>Body</div>
+        {/* <div>Body</div> */}
+        <Login />
         <Footer />
         
     </>;
