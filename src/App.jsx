@@ -2,10 +2,12 @@ import React, {useState, useEffect} from "react";
 
 //pages
 import Login from "./pages/Login.jsx";
+import HomePage from "./pages/HomePage.jsx"
 
 //components
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
+
 
 //utilities
 import GetData from "./utils/GetData.js";
@@ -42,7 +44,7 @@ const App = () => {
     return <>
         <Header location={location} savedLocations ={savedLocations} user = {user} />
         {/* <div>Body</div> */}
-        <Login />
+        <HomePage />
         <Footer />
         
     </>;

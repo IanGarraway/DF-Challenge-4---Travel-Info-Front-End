@@ -4,7 +4,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import LoginComponent from '../components/LoginComponent';
 import NewUserComponent from '../components/NewUserComponent';
 
-import "./Login.css"
+import "./css/Login.css"
 
 
 const Login = () => {
