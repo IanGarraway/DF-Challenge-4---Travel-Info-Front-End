@@ -2,6 +2,7 @@ import dummyHotel from "../../data/dummyHotelData.json"
 import dummyUserLocations from "../../data/dummyUserLocations.json"
 import dummyWeather from "../../data/dummyWeatherData.json"
 
+import WeatherDataConverter from "./WeatherDataConverter.js"
 
 class GetData {
 
@@ -14,7 +15,7 @@ class GetData {
     }
 
     static weather() {
-        return dummyWeather;
+        return WeatherDataConverter(dummyWeather.dublin);
     }
 
 

@@ -5,7 +5,7 @@ import { InputGroup } from 'react-bootstrap';
 import * as formik from 'formik';
 import * as Yup from 'yup'
 
-import "./LoginComponent.css"
+import "./css/LoginComponent.css"
 
 
 const NewUserComponent = () => {
