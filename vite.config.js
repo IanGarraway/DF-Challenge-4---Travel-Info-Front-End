@@ -6,5 +6,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     sourcemap: true,
+  },
+  test: {
+    include: ['**/*.test.js$'],
+    globals: true
   }
 })

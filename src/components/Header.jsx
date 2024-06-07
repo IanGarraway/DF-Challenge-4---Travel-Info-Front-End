@@ -18,7 +18,7 @@ const Header = ({ location, savedLocations, user }) => {
     const notHomePage = (location != "Home")
     const locationsSaved = (savedLocations.length > 0);
 
-    if (isMobile()) {
+    if (isMobile(window.innerWidth, screen.width)) {
         return (
             <>
                 <div className="Header">

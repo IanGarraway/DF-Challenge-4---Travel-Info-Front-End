@@ -2,10 +2,10 @@
 
 
 
-function isMobile() {
+function isMobile(innerWidth, scrWidth) {
     const minWidth = 768;
 
-    return window.innerWidth < minWidth || screen.width < minWidth;    
+    return innerWidth < minWidth || scrWidth < minWidth;    
 }
 
 export default isMobile;
