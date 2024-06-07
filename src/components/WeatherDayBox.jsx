@@ -1,25 +1,30 @@
+import React from "react";
 
+import "./css/WeatherDayBox.css"
 
-const WeatherDayBox = (weather) => {
+const WeatherDayBox = ({ weather }) => {
+    if(!weather){return <div>Loading...</div>}
     
-    //let d = new Date(Date.parse(weather.Date));//.toLocaleString('en-GB');
-    const { date: date, icon: icon, weather_desc: weather_desc } = weather;
-    let d = date
+    const { date, icon, weather_desc } = weather;
+    let d = new Date(date).toLocaleDateString("en-GB");
     const iconImage = `../../assets/weather-icons/${icon}.svg`;
-    console.log(weather);
-    console.log(date);
+
 
     
     return (
         <>
-            <div> Today's weather: </div>
-            <div>date{date}</div>
-            <div><img src={iconImage}></img></div>
-            <div>des{weather_desc}</div>
+            <div className="weatherBox">
+                <div> Today's weather: </div>
+                <div>{d}</div>
+                <div id="weatherImage"><img src={iconImage}></img></div>
+                <div>{weather_desc}</div>
+            </div>
             
         </>
     );
     
 }
+
+
 
 export default WeatherDayBox;

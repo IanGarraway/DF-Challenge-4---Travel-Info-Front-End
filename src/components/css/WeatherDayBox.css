@@ -1,0 +1,12 @@
+.weatherBox{
+    align-items: center;
+    width: 128px;
+    text-align: center;
+    background-color: white;
+    opacity: .8;
+    flex: 1;
+}
+#weatherImage{
+    width: 100%;
+
+}

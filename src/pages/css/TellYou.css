@@ -1,0 +1,38 @@
+#tellingYouPage{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/images/pexels-hammyx-941459.jpg");
+        background-position: center;
+        background-size: cover;
+    height: 100%;
+        
+}
+#content{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    opacity: 1.0;
+}
+.weatherToday{
+    width: 100%;
+    
+    justify-content: center;
+    opacity: 1.0;
+    display: flex;
+    
+}
+
+.weatherForecast{
+    display: flex;
+    align-content: center;
+    row-gap: 5px;
+
+}
+.forecastBox{
+    flex: 1;
+}
+.spacer {
+    flex: 2;
+}

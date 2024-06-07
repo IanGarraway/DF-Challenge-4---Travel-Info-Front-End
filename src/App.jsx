@@ -39,6 +39,7 @@ const App = () => {
 
     const getWeather = () => {
         setWeatherData(GetData.weather());
+        console.log(weatherData);
     }
 
     useEffect(() => {
