@@ -43,7 +43,7 @@ const Header = ({ location, savedLocations, user }) => {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                             <SavedList savedLocations={savedLocations} />
                             </Nav>
                             <Form className="d-flex">
@@ -68,7 +68,7 @@ const Header = ({ location, savedLocations, user }) => {
             <div className="Header">
                 <div id = "leftSide">
                     <img className="logo" src="src\assets\logo.jpg" alt="DFC Travel Agency Logo" />
-                    <Button className = "headerButtons" href="#" type = "submit">Home</Button>{``}
+                    <Button className = "headerButtons" href="/" type = "submit">Home</Button>{``}
                     <SavedList savedLocations={savedLocations} />
                 </div>
                 <div id = "rightSide">

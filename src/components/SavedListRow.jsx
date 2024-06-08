@@ -5,7 +5,7 @@ const SavedListRow = ({ savedLocation }) => {
     const { id, name } = savedLocation; 
     console.log(`location: ${savedLocation}`);
 
-    return <Dropdown.Item href={`#/find/${name}`}>{name}</Dropdown.Item>;
+    return <Dropdown.Item href={`/${name}`}>{name}</Dropdown.Item>;
 };
 
 export default SavedListRow;

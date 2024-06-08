@@ -2,10 +2,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
-    background-image: url("../../assets/images/pexels-hammyx-941459.jpg");
-        background-position: center;
-        background-size: cover;
+    justify-content: center;    
     height: 100%;
         
 }

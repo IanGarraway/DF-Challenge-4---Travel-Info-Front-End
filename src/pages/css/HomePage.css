@@ -5,10 +5,16 @@ html, body {
     flex-direction: column;
 }
 
-#root{
-    display: flex;
+#root {
+    
     flex-direction: column;
     height: 100%;
+    width: 100%;
+}
+.container{    
+    height: 100%;
+    width: 100%;
+
 }
 
 .content{
@@ -26,8 +32,5 @@ html, body {
     height: 100%;
     align-self: center;
     padding-top: 5%;
-    background-image: url("../../assets/images/pexels-hammyx-941459.jpg");
-    background-position: center;
-    background-size: cover;
-    opacity: 1.0;
+    
 }

@@ -23,7 +23,7 @@ const SavedList = ({ savedLocations }) => {
                 <Dropdown.Menu>
                     {dropDownItems}
                     <Dropdown.Divider />
-                    <Dropdown.Item href="#/action-4">Favourites</Dropdown.Item>
+                    <Dropdown.Item href="/favourites">Favourites</Dropdown.Item>
                 </Dropdown.Menu>                
             </Dropdown>
         </>
