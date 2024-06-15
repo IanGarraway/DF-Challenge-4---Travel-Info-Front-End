@@ -68,7 +68,7 @@ const Header = ({ location, savedLocations, user, setUser }) => {
                                     <Nav className="justify-content-start flex-grow-1 pe-3">
                                         {loginButton} 
                                         <Nav.Link href="/">Home</Nav.Link>
-                                        <SavedList savedLocations={savedLocations} />
+                                        {savedLocations.length>0 && <SavedList savedLocations={savedLocations} />}
                                     </Nav>
                                     <Form className="d-flex">
                                         {notHomePage && <Form.Control type="search" placeholder="Location Search..." className="me-2" aria-label="Search" />}

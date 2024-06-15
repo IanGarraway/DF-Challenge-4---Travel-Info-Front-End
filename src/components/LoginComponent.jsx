@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { useCookies } from 'react-cookie';
 
 import "./css/LoginComponent.css"
 import AccountService from '../services/Account.service';
@@ -14,6 +15,8 @@ const LoginComponent = ({ setUser }) => {
     const username = useRef();
     const password = useRef();
     const navigateTo = useNavigate();
+    const [cookies, setCookie] = useCookies(['username'])
+    
 
     const handleSubmit = async(e) => {
         e.preventDefault();
@@ -27,10 +30,10 @@ const LoginComponent = ({ setUser }) => {
         const response = await AccountService.login(formData);
         
             
-            if (response.status === 200) {
-            console.log(response.data.username, `<-->`);
-            setUser(response.data.username);            
-            navigateTo("/");
+            if (response.status === 200) {            
+                setUser(response.data.username);
+                setCookie('username', response.data.username, {path: '/', maxAge:86400})
+                navigateTo("/");
         } else {
             console.error("Login failed");
             }

@@ -14,11 +14,15 @@ const SavedList = ({ savedLocations }) => {
 
     if(!savedLocations.length>0){return <div>loading favourites</div>}
 
-    savedLocations.forEach(savedLocation => {
+    // savedLocations.forEach(savedLocation => {
         
-        dropDownItems.push(<SavedListRow savedLocation={savedLocation} key={savedLocation.id}/>);
+    //     dropDownItems.push(<SavedListRow key={savedLocation.id} savedLocation={savedLocation} />);
         
-    });
+    // });
+
+    dropDownItems = savedLocations.map(savedLocation => (
+        <SavedListRow key={savedLocation._id} savedLocation={savedLocation} />
+    ))
 
     return (
         <>

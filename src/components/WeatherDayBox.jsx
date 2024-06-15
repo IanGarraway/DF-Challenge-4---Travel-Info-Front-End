@@ -2,7 +2,7 @@ import React from "react";
 
 import "./css/WeatherDayBox.css"
 
-const WeatherDayBox = ({ weather }) => {
+const WeatherDayBox = ({ weather, msg }) => {
     if(!weather){return <div>Loading...</div>}
     
     const { date, icon, weather_desc } = weather;
@@ -14,7 +14,7 @@ const WeatherDayBox = ({ weather }) => {
     return (
         <>
             <div className="weatherBox">
-                <div> Today's weather: </div>
+                <div> {msg} </div>
                 <div>{d}</div>
                 <div id="weatherImage"><img src={iconImage}></img></div>
                 <div>{weather_desc}</div>

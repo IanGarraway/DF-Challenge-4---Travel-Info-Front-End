@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom"
+import { useCookies } from "react-cookie";
 
 //pages
 import Login from "./pages/Login.jsx";
@@ -23,11 +24,13 @@ import FavouritesService from "./services/Favourites.service.js";
 const App = () => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [cookies] = useCookies(['username']);
     const [location, setLocation] = useState(["a"]);
     const [destination, setDestination] = useState("");
     const [savedLocations, setSavedLocations] = useState([]);
-    const [user, setUser] = useState("");
+    const [user, setUser] = useState(cookies.username);
     const [weatherData, setWeatherData] = useState([]);
+    
 
     const navigate = useNavigate();
  
@@ -92,7 +95,7 @@ const App = () => {
                     />
                     <Route
                         path="/:selectedId"
-                        element={<TellYou destination={destination} weatherData={weatherData} setDestination={setDestination} />}
+                        element={<TellYou destination={destination} weatherData={weatherData} setDestination={setDestination} user={user} />}
                     />
                     <Route
                         path="/favourites"
