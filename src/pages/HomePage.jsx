@@ -1,20 +1,38 @@
+import React, { useState } from "react";
+
+
 import { Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
 import "./css/HomePage.css";
 
-const HomePage = () => {
+const HomePage = ({ destinationSelect }) => {
+    
+    const [location, setLocation] = useState("");
+    const handleChange = (e) => {
+        setLocation(e.target.value);
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        destinationSelect(location);
+        
+    }
+
     return (
         <>
             <div className="content">
                 <div className="home">
-                    <Form className={["justify-content-center", "align-content-center"]}>
+                    <Form className={["justify-content-center", "align-content-center"]} onSubmit={handleSubmit}>
             
                         <Form.Group className="mb-3" >
                             <Form.Label className={["text-dark", "font-weight-bolder", "w-100", "rounded-top", "bg-light"]} column="lg" lg={2}>Tell me about...</Form.Label>
-                            <Form.Control type="String" placeholder="Location name..." />
+                            <Form.Control
+                                type="String"
+                                placeholder="Location name..."
+                                onChange={handleChange}
+                            />
                         </Form.Group>
-                        <Button className={["w-75", "align-self-center"]} size = "lg" type="submit">
+                        <Button className={["w-75", "align-self-center"]} size = "lg" type="submit" >
                             Search...
                         </Button>
                     

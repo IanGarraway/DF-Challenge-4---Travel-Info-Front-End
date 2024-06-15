@@ -7,26 +7,28 @@ import NewUserComponent from '../components/NewUserComponent';
 import "./css/Login.css"
 
 
-const Login = () => {
+const Login = ({ setUser, }) => {
     return (
-        <div className='loginBoxes'>
+        <div className='loginScreen'>
+            <div className='loginBoxes'>
             
-            <Tabs
-                defaultActiveKey="Login"
-                id="loginScreen"
-                className="mb-3"
-                variant='pills'
-            >
-                <Tab eventKey="Login" title="Login">                    
-                    <LoginComponent />                    
-                </Tab>                
-                <Tab eventKey="New User" title="New User">                    
-                    <NewUserComponent />                    
-                </Tab>
-            </Tabs>
+                <Tabs
+                    defaultActiveKey="Login"
+                    id="loginScreen"
+                    className="mb-3"
+                    variant='pills'
+                >
+                    <Tab eventKey="Login" title="Login">
+                        <LoginComponent setUser={setUser}  />
+                    </Tab>
+                    <Tab eventKey="New User" title="New User">
+                        <NewUserComponent />
+                    </Tab>
+                </Tabs>
+            </div>
         </div>
         
-  );
+    );
 }
 
 export default Login;

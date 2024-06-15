@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, useNavigate } from "react-router-dom"
 
 //pages
 import Login from "./pages/Login.jsx";
@@ -13,20 +13,23 @@ import Header from "./components/Header.jsx";
 
 
 //utilities
-import GetData from "./utils/GetData.js";
+import GetData from "./services/GetData.service.js";
 
 
 //css
 import "./pages/css/App.css"
+import FavouritesService from "./services/Favourites.service.js";
 
 const App = () => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [location, setLocation] = useState(["a"]);
-    const [destination, setDestination] = useState("Dublin");
+    const [destination, setDestination] = useState("");
     const [savedLocations, setSavedLocations] = useState([]);
-    const [user, setUser] = useState({});
+    const [user, setUser] = useState("");
     const [weatherData, setWeatherData] = useState([]);
+
+    const navigate = useNavigate();
  
     useEffect(() => {
         const handleResize = () => {
@@ -39,38 +42,57 @@ const App = () => {
         };
     }, []);
 
-    const getLocations = () => {
-        setSavedLocations(GetData.locations());
+    useEffect(() => {
+        if (destination) {
+            getWeather(destination);
+        }
+    },[destination]);
+
+    const getLocations = async () => {
+        if (user != "") {
+
+            const locations = await FavouritesService.getFavourites()
+            setSavedLocations(locations);
+        }
     }
 
-    const getWeather = () => {
-        setWeatherData(GetData.weather());
-        console.log(weatherData);
+    const getWeather = async (city) => {
+        const weather = await GetData.weather(city);
+        setWeatherData(weather);        
+    }
+
+    const destinationSelect = (city) => {              
+        navigate(`/${city}`);
+        
+        
+        
     }
 
     useEffect(() => {
         getLocations();
-    }, []);
+    }, [user]);
 
-    useEffect(() => {
-        getWeather();
-    }, []);
+    
 
     
 
 
     return <>
         <div className="allApp">
-            <Header location={location} savedLocations={savedLocations} user={user} />
+            <Header location={location} savedLocations={savedLocations} user={user} setDestination={setDestination} setUser={setUser} />
             <div className="routesContainer">
                 <Routes>
                     <Route
                         path="/"
-                        element={<HomePage />}
+                        element={<HomePage destinationSelect={destinationSelect}/>}
+                    />
+                    <Route
+                        path="/login"
+                        element={<Login setUser={setUser} getLocations={getLocations} />}
                     />
                     <Route
                         path="/:selectedId"
-                        element={<TellYou destination={destination} weatherData={weatherData} />}
+                        element={<TellYou destination={destination} weatherData={weatherData} setDestination={setDestination} />}
                     />
                     <Route
                         path="/favourites"

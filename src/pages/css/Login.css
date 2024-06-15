@@ -1,6 +1,22 @@
+.loginScreen {
+    display: flex;    
+    justify-content: center;
+    height: 100%;
+    padding: 1%;
+    margin : 10px;
+    padding-bottom: 80px;
+
+}
+
 .loginBoxes{
+    background-color: darkblue;
+    color: white; 
+    padding: 20px;
+    
+    margin: 10px;
     
     
    
     
 }
+

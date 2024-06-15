@@ -1,12 +1,27 @@
 import WeatherDayBox from "../components/WeatherDayBox";
+import React, { useEffect } from "react";
+import { useLocation, useParams } from "react-router-dom";
 
 import "./css/TellYou.css"
 
-const TellYou = ({ destination, weatherData }) => {
+const TellYou = ({ destination, weatherData, setDestination }) => {
 
-    let forecast = [];
+    const { selectedId } = useParams();    
+    
+    useEffect(() => {
+        if (destination != selectedId) { setDestination(selectedId); }
+    }, [selectedId, destination, setDestination]);
+    
+    
 
-    for (let i = 1; i < 5; i++){
+    let forecast = [];   
+
+    console.log(weatherData);
+
+    let weather;
+
+    if (weatherData.length > 0) {
+        for (let i = 1; i < 5; i++){
         forecast.push(
             <WeatherDayBox
                 weather={weatherData[i]}
@@ -15,18 +30,10 @@ const TellYou = ({ destination, weatherData }) => {
 
             />
         ) 
+        
     }
-
-
-    return (
-        <div id = "tellingYouPage">
-            <div id="content">
-                <div className="title">
-                    <h2>Telling you about...</h2>
-                </div>
-                <div className="cityName">
-                    <h1>{destination}</h1>
-                </div>
+        weather = (
+            <div>
                 <div className="weatherToday">
                     <div className="spacer"></div>
                     <WeatherDayBox weather={weatherData[0]}
@@ -40,14 +47,26 @@ const TellYou = ({ destination, weatherData }) => {
                     <div className="spacer" />
 
                 </div>
-            
-               
-            
-            
-            
+            </div>);
+    } else {
+        weather = (
+            <div>
+                <p>Loading Weather forecase...</p>
+            </div>
+        )
+    }
 
-        
-        
+
+    return (
+        <div id = "tellingYouPage">
+            <div id="content">
+                <div className="title">
+                    <h2>Telling you about...</h2>
+                </div>
+                <div className="cityName">
+                    <h1>{destination}</h1>
+                </div>
+                {weather}        
             </div>
         </div>
         

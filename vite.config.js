@@ -10,5 +10,8 @@ export default defineConfig({
   test: {
     include: ['**/*.test.js$'],
     globals: true
+  },
+  define: {
+    'process.env': process.env
   }
 })

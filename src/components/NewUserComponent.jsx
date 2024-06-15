@@ -1,15 +1,19 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { InputGroup } from 'react-bootstrap';
+import { InputGroup, Alert } from 'react-bootstrap';
 
 import * as formik from 'formik';
 import * as Yup from 'yup'
 
+import AccountService from '../services/Account.service';
+
 import "./css/LoginComponent.css"
+import { useState } from 'react';
 
 
 const NewUserComponent = () => {
     const { Formik } = formik;
+    const [success, setSuccess] = useState(false);
         
     const schema = Yup.object().shape({
         username: Yup.string()
@@ -25,7 +29,20 @@ const NewUserComponent = () => {
 return (
     <Formik
         validationSchema={schema}
-        onSubmit={console.log}
+        onSubmit={async (values, { setSubmitting, resetForm }) => {
+            
+            try {
+                const response = await AccountService.newAccount(values.username, values.name, values.email, values.password)
+
+                if (response.status === 201) {
+                    setSuccess(true);
+                    resetForm();
+                }                
+            } catch (e) {
+                console.error("There was an error creating the account", e);
+            }
+            setSubmitting(false);
+        }}
         initialValues={{
             username: '',
             name: '',
@@ -35,7 +52,8 @@ return (
         }}
     >
         {({handleSubmit, handleChange, values,touched, errors})=>(
-        <Form noValidate onSubmit={handleSubmit}>
+            <Form noValidate onSubmit={handleSubmit}>
+                {success && <Alert key={success} variant={success}>Account Created</Alert>}
             <Form.Group className="mb-3" controlId="formBasicUsername">
                 <Form.Label>Username</Form.Label>
                     <Form.Control
