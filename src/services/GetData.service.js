@@ -15,10 +15,8 @@ class GetData {
     }
 
     static async weather(city) {
-        try {
-            console.log(city);
+        try {            
             const weatherData = await axios.get(`http://localhost:3000/about/?location=${city}`);
-            console.log(weatherData.data);
             return weatherData.data;
 
         } catch (e) {

@@ -6,31 +6,32 @@ import "./css/Favourites.css"
 
 
 const Favourites = ({ savedLocations, setSavedLocations, location, setLocation}) => {
-
-    if (location != "Favourites") setLocation("Favourites");
-    
+        
     const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(true);
 
+    const [favsTable, setFavsTable] = useState(null);    
+
+    
+
     useEffect(() => {
+        if (location != "Favourites") setLocation("Favourites");
         if (savedLocations != null) {
             setIsLoading(false);
         }
-    }, [savedLocations]);
-
-    useEffect(() => {
-        if (!isLoading && (savedLocations == null || savedLocations.length === 0)) {
-           // navigate("/");
+        if (savedLocations == null || savedLocations.length === 0) {
+            setFavsTable(<div>are loading...</div>)
+        } else {
+            setFavsTable(<FavTable savedLocations={savedLocations} setSavedLocations={setSavedLocations} />);
         }
-    }, [isLoading, savedLocations, navigate]);
+    }, [savedLocations, location]);
 
+    
     if (isLoading) {
         return <div>Loading...</div>;
     }
 
-    if (savedLocations == null || savedLocations.length === 0) {
-        return null;
-    }
+    
 
 
     return (
@@ -43,7 +44,7 @@ const Favourites = ({ savedLocations, setSavedLocations, location, setLocation})
                     <h1>Your Favorites</h1>
                 </div>
                 <div className="favsTable">
-                    <FavTable savedLocations={savedLocations} setSavedLocations={setSavedLocations} />
+                    {favsTable}
                 </div>
             </div>
         </div>

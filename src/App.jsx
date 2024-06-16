@@ -52,19 +52,19 @@ const App = () => {
     }, [destination]);
     
     useEffect(() => {
-        console.log('savedLocations updated:', savedLocations);
+        //console.log('savedLocations updated:', savedLocations);
         // Any other logic that should run when savedLocations updates
     }, [savedLocations]);
 
     const getLocations = async () => {
         if (user != "") {
-            const locations = await FavouritesService.getFavourites()
+            const locations = await FavouritesService.getFavourites()            
             setSavedLocations(locations);
+            
         }
     }
 
-    const getWeather = async (city) => {
-        console.log(`Getting weather data`);
+    const getWeather = async (city) => {        
         const weather = await GetData.weather(city);
         setWeatherData(weather.weather);
 
