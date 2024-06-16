@@ -1,4 +1,5 @@
 .loginScreen {
+    
     display: flex;    
     justify-content: center;
     height: 100%;
@@ -9,14 +10,16 @@
 }
 
 .loginBoxes{
+    box-sizing: content-box;
     background-color: darkblue;
     color: white; 
     padding: 20px;
-    
+    height: 100%;    
     margin: 10px;
     
-    
-   
-    
+}
+
+.tab-content{
+    height: 100%;
 }
 

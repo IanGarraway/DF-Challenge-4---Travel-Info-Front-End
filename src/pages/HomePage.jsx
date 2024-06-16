@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 
 import { Form } from "react-bootstrap";
@@ -7,7 +7,10 @@ import { Button } from "react-bootstrap";
 import "./css/HomePage.css";
 
 const HomePage = ({ destinationSelect, location, setLocation}) => {
-    if (location != "HomePage") { setLocation("HomePage"); }
+    useEffect(() => {
+        
+        if (location != "HomePage") setLocation("HomePage");
+    }, [location]);   
     
     
     const [destination, setDestination] = useState("");

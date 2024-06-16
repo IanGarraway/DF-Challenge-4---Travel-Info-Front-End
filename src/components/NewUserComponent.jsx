@@ -63,7 +63,8 @@ return (
                         value={values.username}
                         onChange={handleChange}
                         isValid={touched.username&&!errors.username}
-                        isInvalid={touched.username&&!!errors.username}
+                        isInvalid={touched.username && !!errors.username}
+                        data-testid={"newUsername"}
                     />
                     <Form.Control.Feedback type="invalid">
                             {errors.username}
@@ -79,7 +80,8 @@ return (
                         value={values.name}
                         onChange={handleChange}
                         isValid={touched.name && !errors.name}
-                        isInvalid={touched.name&&!!errors.name}
+                        isInvalid={touched.name && !!errors.name}
+                        data-testid={"newName"}
                     />
                     <Form.Control.Feedback type="invalid">
                             {errors.name}
@@ -95,7 +97,8 @@ return (
                         value={values.email}
                         onChange={handleChange}
                         isValid={touched.email && !errors.email}
-                        isInvalid={touched.email&& !!errors.email}
+                        isInvalid={touched.email && !!errors.email}
+                        data-testid={"newEmail"}
                     />
                     <Form.Control.Feedback type="invalid">
                             {errors.email}
@@ -111,7 +114,8 @@ return (
                         value={values.password}
                         onChange={handleChange}
                         isValid={touched.password && !errors.password}
-                        isInvalid={touched.password&&!!errors.password}
+                        isInvalid={touched.password && !!errors.password}
+                        data-testid={"newPassword"}
                     />
                     <Form.Control.Feedback type="invalid">
                             {errors.password}
@@ -125,9 +129,10 @@ return (
                     onChange={handleChange}
                     isInvalid={!!errors.terms}                    
                     feedback="You must agree before submitting."
-                    feedbackType="invalid"    
+                    feedbackType="invalid" 
+                    data-testid={"newTerms"}
             />
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" data-testid={"newButton"}>
                 Submit
             </Button>
             </Form>

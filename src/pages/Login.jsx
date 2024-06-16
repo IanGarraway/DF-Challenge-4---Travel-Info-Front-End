@@ -1,3 +1,5 @@
+import React, {useEffect} from 'react';
+
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
@@ -8,7 +10,10 @@ import "./css/Login.css"
 
 
 const Login = ({ setUser, location, setLocation, }) => {
-    if (location != "Login") setLocation("Login");
+   useEffect(() => {
+        
+        if (location != "Login") setLocation("Login");
+    }, [location]);    
     
     return (
         <div className='loginScreen'>

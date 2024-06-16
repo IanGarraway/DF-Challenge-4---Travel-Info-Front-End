@@ -43,17 +43,17 @@ const LoginComponent = ({ setUser }) => {
     }
     return (
         <Form onSubmit={handleSubmit}>
-            <Form.Group className="mb-3" controlId="formBasicUsername">
+            <Form.Group className="mb-3" controlId="loginUsername">
                 <Form.Label>Username</Form.Label>
-                <Form.Control type="username" placeholder="Username" ref={username}  />
+                <Form.Control type="username" placeholder="Username" ref={username} data-testid={"loginUsername"} />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="loginPassword">
                 <Form.Label>Password</Form.Label>
-                <Form.Control type="password" placeholder="Password" ref={password}  />
+                <Form.Control type="password" placeholder="Password" ref={password} data-testid={"loginPassword"} />
             </Form.Group>
             
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" data-testid={"loginButton"}>
                 Submit
             </Button>
         </Form >

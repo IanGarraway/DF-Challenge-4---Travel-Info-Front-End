@@ -10,12 +10,13 @@ const TellYou = ({ destination, weatherData, setDestination, user, setSavedLocat
 
     const { selectedId } = useParams();
     
-    if (location != "TellYou") setLocation("TellYou");
+    
     
     
     useEffect(() => {
         if (destination != selectedId) { setDestination(selectedId); }
-    }, [selectedId, destination, setDestination]);    
+        if (location != "TellYou") setLocation("TellYou");
+    }, [selectedId, destination, setDestination, location]);    
     
 
     let forecast = [];  

@@ -28,7 +28,7 @@ const App = () => {
     const [location, setLocation] = useState(["a"]);
     const [destination, setDestination] = useState("");
     const [savedLocations, setSavedLocations] = useState([]);
-    const [user, setUser] = useState(cookies.username);
+    const [user, setUser] = useState("");
     const [weatherData, setWeatherData] = useState([]);
     
 
@@ -46,6 +46,12 @@ const App = () => {
     }, []);
 
     useEffect(() => {
+        const cookie = cookies.username;
+        if (cookie != undefined) { setUser(cookie.name); }
+        
+    }, [])
+
+    useEffect(() => {
         if (destination) {
             getWeather(destination);
         }
@@ -59,8 +65,7 @@ const App = () => {
     const getLocations = async () => {
         if (user != "") {
             const locations = await FavouritesService.getFavourites()            
-            setSavedLocations(locations);
-            
+            setSavedLocations(locations);            
         }
     }
 
