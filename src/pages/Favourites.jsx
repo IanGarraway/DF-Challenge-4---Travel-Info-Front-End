@@ -5,7 +5,10 @@ import FavTable from "../components/FavTable";
 import "./css/Favourites.css"
 
 
-const Favourites = ({ savedLocations, setSavedLocations }) => {
+const Favourites = ({ savedLocations, setSavedLocations, location, setLocation}) => {
+
+    if (location != "Favourites") setLocation("Favourites");
+    
     const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(true);
 

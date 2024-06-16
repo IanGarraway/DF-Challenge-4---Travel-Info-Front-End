@@ -7,7 +7,9 @@ import NewUserComponent from '../components/NewUserComponent';
 import "./css/Login.css"
 
 
-const Login = ({ setUser, }) => {
+const Login = ({ setUser, location, setLocation, }) => {
+    if (location != "Login") setLocation("Login");
+    
     return (
         <div className='loginScreen'>
             <div className='loginBoxes'>

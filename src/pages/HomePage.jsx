@@ -6,15 +6,17 @@ import { Button } from "react-bootstrap";
 
 import "./css/HomePage.css";
 
-const HomePage = ({ destinationSelect }) => {
+const HomePage = ({ destinationSelect, location, setLocation}) => {
+    if (location != "HomePage") { setLocation("HomePage"); }
     
-    const [location, setLocation] = useState("");
+    
+    const [destination, setDestination] = useState("");
     const handleChange = (e) => {
-        setLocation(e.target.value);
+        setDestination(e.target.value);
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        destinationSelect(location);
+        destinationSelect(destination);
         
     }
 
@@ -32,7 +34,7 @@ const HomePage = ({ destinationSelect }) => {
                                 onChange={handleChange}
                             />
                         </Form.Group>
-                        <Button className={["w-75", "align-self-center"]} size = "lg" type="submit" >
+                         <Button className={["w-75", "align-self-center"]} size="lg" type="submit" >
                             Search...
                         </Button>
                     

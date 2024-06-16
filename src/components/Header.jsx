@@ -18,7 +18,7 @@ import isMobile from "../utils/MobileDetector.js";
 
 const Header = ({ location, savedLocations, user, setUser, destinationSelect }) => {
     
-    const notHomePage = (location != "Home")
+    const notHomePage = (location != "HomePage")
     const locationsSaved = (savedLocations.length > 0);
     const searchBoxValue = useRef();
     const [collapse, setCollapse] = useState("");
@@ -78,7 +78,7 @@ const Header = ({ location, savedLocations, user, setUser, destinationSelect }) 
                                 <Offcanvas.Body>
                                     <Nav className="justify-content-start flex-grow-1 pe-3">
                                         {loginButton} 
-                                        <Nav.Link href="/">Home</Nav.Link>
+                                        {notHomePage && <Nav.Link href="/">Home</Nav.Link>}
                                         {savedLocations.length>0 && <SavedList savedLocations={savedLocations} />}
                                     </Nav>
                                     <Form className="d-flex" onSubmit={searchHandler}>

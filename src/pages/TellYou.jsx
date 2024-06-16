@@ -6,9 +6,12 @@ import "./css/TellYou.css"
 import FavouritesService from "../services/Favourites.service";
 import FavouriteIcon from "../components/FavouriteIcon";
 
-const TellYou = ({ destination, weatherData, setDestination, user, setSavedLocations, savedLocations }) => {
+const TellYou = ({ destination, weatherData, setDestination, user, setSavedLocations, savedLocations, location, setLocation }) => {
 
-    const { selectedId } = useParams();    
+    const { selectedId } = useParams();
+    
+    if (location != "TellYou") setLocation("TellYou");
+    
     
     useEffect(() => {
         if (destination != selectedId) { setDestination(selectedId); }

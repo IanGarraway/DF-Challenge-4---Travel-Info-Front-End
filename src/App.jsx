@@ -90,19 +90,19 @@ const App = () => {
                 <Routes>
                     <Route
                         path="/"
-                        element={<HomePage destinationSelect={destinationSelect}/>}
+                        element={<HomePage destinationSelect={destinationSelect} location={location} setLocation={setLocation} />}
                     />
                     <Route
                         path="/login"
-                        element={<Login setUser={setUser} getLocations={getLocations} />}
+                        element={<Login setUser={setUser} getLocations={getLocations} location={location} setLocation={setLocation}/>}
                     />
                     <Route
                         path="/:selectedId"
-                        element={<TellYou destination={destination} weatherData={weatherData} setDestination={setDestination} user={user} setSavedLocations={setSavedLocations} savedLocations ={savedLocations} />}
+                        element={<TellYou destination={destination} weatherData={weatherData} setDestination={setDestination} user={user} setSavedLocations={setSavedLocations} savedLocations ={savedLocations} location={location} setLocation={setLocation} />}
                     />
                     <Route
                         path="/favourites"
-                        element={<Favourites savedLocations={savedLocations} setSavedLocations={setSavedLocations } />}
+                        element={<Favourites savedLocations={savedLocations} setSavedLocations={setSavedLocations }location={location} setLocation={setLocation} />}
                     />
                 </Routes>
             </div>

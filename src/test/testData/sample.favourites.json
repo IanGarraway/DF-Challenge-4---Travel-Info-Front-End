@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "666ec26455eb6475d4c9c63b"
+  },
+  "name": "Leeds, GB",
+  "userID": "666dac6645e13ea2f3371567",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666ec52255eb6475d4c9c64e"
+  },
+  "name": "Glasgow, GB",
+  "userID": "666dac6645e13ea2f3371567",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666ec54255eb6475d4c9c658"
+  },
+  "name": "Woodlesford, GB",
+  "userID": "666dac6645e13ea2f3371567",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666ec54a55eb6475d4c9c661"
+  },
+  "name": "London, GB",
+  "userID": "666dac6645e13ea2f3371567",
+  "__v": 0
+}]
