@@ -4,37 +4,31 @@ import { useLocation, useParams } from "react-router-dom";
 
 import "./css/TellYou.css"
 import FavouritesService from "../services/Favourites.service";
+import FavouriteIcon from "../components/FavouriteIcon";
 
-const TellYou = ({ destination, weatherData, setDestination, user }) => {
+const TellYou = ({ destination, weatherData, setDestination, user, setSavedLocations, savedLocations }) => {
 
     const { selectedId } = useParams();    
     
     useEffect(() => {
         if (destination != selectedId) { setDestination(selectedId); }
-    }, [selectedId, destination, setDestination]);
+    }, [selectedId, destination, setDestination]);    
     
-    const saveIcon = `src/assets/images/saveIcon.png`
 
     let forecast = [];  
-    let weather;
+    let weather;  
 
-    const saveHandler = async() => {
-        try {
-            const res = await FavouritesService.add(destination);
-        } catch (e) {
-            console.error(e.message);
-        }
-    }
-
-    if (weatherData.length > 0) {
+    if (weatherData == null) {
+        weather = (<p className="tellingYouPage">Loading data</p>)
+    } else if (weatherData.length > 0) {
         for (let i = 1; i < 5; i++){
             forecast.push(
                 <WeatherDayBox
                     weather={weatherData[i]} msg={"Weather on:"}
                     key={i}
-                    className = "forecastBox"
+                    className="forecastBox"
                 />
-            )         
+            );      
         }
         weather = (
             <div>
@@ -49,7 +43,7 @@ const TellYou = ({ destination, weatherData, setDestination, user }) => {
                     {forecast}
                     <div className="spacer" />
                 </div>
-            </div>);
+            </div>)
     } else {
         weather = (
             <div>
@@ -61,20 +55,24 @@ const TellYou = ({ destination, weatherData, setDestination, user }) => {
 
     return (
         <div id="tellingYouPage">
-            <div id="content">
-                <div className="title">
-                    <h2>Telling you about...</h2>
-                </div>
-                <div className="cityContainer">
-                    <div className="saveFav">
-                        {user != "" && <button><img id="saveBut" src={saveIcon} alt="save Location icon" onClick={saveHandler}></img></button>}
+            <div id="TYPcontent">
+                <div id="TYPBox">
+                    <div className="title">
+                        <h2>Telling you about...</h2>
                     </div>
-                    <div className="cityName">
-                        <h1>{destination}</h1>
+                    <div className="cityOuterContainer">
+                        <div className="cityContainer">
+                            <div className="saveFav">
+                                {user != "" && <FavouriteIcon destination={destination} savedLocations={savedLocations} setSavedLocations={setSavedLocations} />}
+                            </div>
+                            <div className="cityName">
+                                <h1>{destination}</h1>
+                            </div>
+                        </div>
                     </div>
-                </div>
                 
-                {weather}
+                    {weather}
+                </div>
             </div>
         </div>
         

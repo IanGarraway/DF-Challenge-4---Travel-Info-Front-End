@@ -49,40 +49,43 @@ const App = () => {
         if (destination) {
             getWeather(destination);
         }
-    },[destination]);
+    }, [destination]);
+    
+    useEffect(() => {
+        console.log('savedLocations updated:', savedLocations);
+        // Any other logic that should run when savedLocations updates
+    }, [savedLocations]);
 
     const getLocations = async () => {
         if (user != "") {
-
             const locations = await FavouritesService.getFavourites()
             setSavedLocations(locations);
         }
     }
 
     const getWeather = async (city) => {
+        console.log(`Getting weather data`);
         const weather = await GetData.weather(city);
-        setWeatherData(weather);        
+        setWeatherData(weather.weather);
+
+        const newDestination = `${weather.city.name}, ${weather.city.country}`;
+        if(destination!= newDestination) destinationSelect(newDestination)
+        
     }
 
     const destinationSelect = (city) => {              
+        setDestination(city);
         navigate(`/${city}`);
-        
-        
-        
     }
 
     useEffect(() => {
         getLocations();
     }, [user]);
 
-    
-
-    
-
 
     return <>
         <div className="allApp">
-            <Header location={location} savedLocations={savedLocations} user={user} setDestination={setDestination} setUser={setUser} />
+            <Header location={location} savedLocations={savedLocations} user={user} setDestination={setDestination} setUser={setUser} destinationSelect={destinationSelect} />
             <div className="routesContainer">
                 <Routes>
                     <Route
@@ -95,11 +98,11 @@ const App = () => {
                     />
                     <Route
                         path="/:selectedId"
-                        element={<TellYou destination={destination} weatherData={weatherData} setDestination={setDestination} user={user} />}
+                        element={<TellYou destination={destination} weatherData={weatherData} setDestination={setDestination} user={user} setSavedLocations={setSavedLocations} savedLocations ={savedLocations} />}
                     />
                     <Route
                         path="/favourites"
-                        element={<Favourites savedLocations={savedLocations} />}
+                        element={<Favourites savedLocations={savedLocations} setSavedLocations={setSavedLocations } />}
                     />
                 </Routes>
             </div>

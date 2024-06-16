@@ -8,9 +8,7 @@ import { NavItem } from "react-bootstrap";
 
 const SavedList = ({ savedLocations }) => {
 
-    let dropDownItems = [];
-
-    console.log(savedLocations.length);
+    let dropDownItems = [];    
 
     if(!savedLocations.length>0){return <div>loading favourites</div>}
 

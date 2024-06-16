@@ -1,9 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { useCookies } from "react-cookie";
+import { useNavigate } from "react-router-dom";
+
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -13,25 +16,33 @@ import SavedList from "./SavedList.jsx"
 import isMobile from "../utils/MobileDetector.js";
 
 
-const Header = ({ location, savedLocations, user, setUser }) => {
+const Header = ({ location, savedLocations, user, setUser, destinationSelect }) => {
     
     const notHomePage = (location != "Home")
     const locationsSaved = (savedLocations.length > 0);
+    const searchBoxValue = useRef();
+    const [collapse, setCollapse] = useState("");
+    const navigateTo = useNavigate();
 
     const username = user;
 
-    const [collapse, setCollapse] = useState("");
+    
 
     const logoutFunction = () => {
         setUser("");
         
+    }
+    const searchHandler = (e) => {        
+        console.log(searchBoxValue.current.value);
+        destinationSelect(searchBoxValue.current.value);
+        navigateTo(`/${searchBoxValue.current.value}`);
     }
     
     let loginButton;
     if (user === "") {
         loginButton = (<Nav.Link href="/login">Login/Create Account</Nav.Link>)
     } else {
-        loginButton = (<><Button variant="primary" onClick={logoutFunction}>{username}, Logout</Button></>)
+        loginButton = (<><Navbar.Text onClick={logoutFunction}>{username}, Logout</Navbar.Text></>)
     }
 
     useEffect(() => {
@@ -70,9 +81,9 @@ const Header = ({ location, savedLocations, user, setUser }) => {
                                         <Nav.Link href="/">Home</Nav.Link>
                                         {savedLocations.length>0 && <SavedList savedLocations={savedLocations} />}
                                     </Nav>
-                                    <Form className="d-flex">
-                                        {notHomePage && <Form.Control type="search" placeholder="Location Search..." className="me-2" aria-label="Search" />}
-                                        {notHomePage && <Button variant="outline-success">Search</Button>}
+                                    <Form className="d-flex" onSubmit={searchHandler}>
+                                        {notHomePage && <Form.Control type="search" placeholder="Location Search..." className="me-2" aria-label="Search" ref={searchBoxValue} />}
+                                        {notHomePage && <Button variant="outline-success" onClick={searchHandler}>Search</Button>}
                                     </Form>
                                 </Offcanvas.Body>
                             </Navbar.Offcanvas>

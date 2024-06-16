@@ -1,4 +1,10 @@
 .favsTable{
     display: grid;
     grid-template-columns: auto auto auto;
+    background-color: bisque;
+    opacity: 1;
+}
+
+.loc{
+opacity: 1;
 }

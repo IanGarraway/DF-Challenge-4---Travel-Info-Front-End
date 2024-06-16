@@ -40,3 +40,11 @@
     position: fixed;
     top: 0;
 }
+
+.content{
+    align-items: center;
+    justify-content: center;
+    color:green;
+    flex-direction: column;
+    padding-top: 50px;
+}
