@@ -7,21 +7,23 @@
     color: Green
         
 }
-#TYPcontent{
-    width: 100%;
+
+#TYPcontent{   
+    
     text-align: center;
     align-items: center;
     opacity: 1.0;
     
 }
 #TYPBox{
+    box-sizing: border-box;
+    border: 20px;
     width: auto;
     background-color: beige;
 }
 .cityOuterContainer{
     width: 100%;
-    align-content: center;
-    
+    align-content: center;    
 
 }
 
@@ -51,6 +53,7 @@
 .weatherForecast{
     display: flex;
     align-content: center;
+    justify-content: space-around;
     row-gap: 5px;
 
 }
@@ -59,4 +62,24 @@
 }
 .spacer {
     flex: 2;
+}
+
+.weatherBox {
+    align-items: center;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    outline: 5px;
+    outline-color: black;
+    border-style: solid;
+    border-color: black;
+    
+    opacity: .8;
+    flex: 1;
+    
+}
+
+#weatherImage {
+    width: 100%;
+
 }

@@ -7,14 +7,16 @@
 }
 
 
-#leftSide{
+.leftSide{
     display: flex;
     align-items: center;
+    justify-content: start;
 
 }
-#rightSide{
+.rightSide{
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 
 #searchBox{         
@@ -22,3 +24,6 @@
     
 }
 
+.right{
+    float: right;
+}

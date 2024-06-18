@@ -70,7 +70,7 @@ const App = () => {
     }
 
     const getWeather = async (city) => {        
-        const weatherData = await GetData.weather(city);
+        const weatherData = await GetData.weather(city);        
 
         if (weatherData.status == 200) {
             const weather = weatherData.data;

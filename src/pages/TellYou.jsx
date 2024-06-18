@@ -31,17 +31,17 @@ const TellYou = ({ destination, weatherData, setDestination, user, setSavedLocat
             );      
         }
         weather = (
-            <div>
+            <div> 
                 <div className="weatherToday">
-                    <div className="spacer"></div>
+                    
                     <WeatherDayBox weather={weatherData[0]} msg={"Weather today:"}
                         className="today" />
-                    <div className="spacer"></div>
+                    
                 </div>
                 <div className="weatherForecast">
-                    <div className="spacer" />
+                    
                     {forecast}
-                    <div className="spacer" />
+                    
                 </div>
             </div>)
     } else {
