@@ -55,12 +55,8 @@ const App = () => {
         if (destination) {
             getWeather(destination);
         }
-    }, [destination]);
-    
-    useEffect(() => {
-        //console.log('savedLocations updated:', savedLocations);
-        // Any other logic that should run when savedLocations updates
-    }, [savedLocations]);
+    }, [destination]);   
+   
 
     const getLocations = async () => {
         if (user != "") {
