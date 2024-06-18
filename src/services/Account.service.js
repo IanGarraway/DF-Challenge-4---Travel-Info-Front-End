@@ -9,8 +9,22 @@ export default class AccountService {
                 "password": password
             }, {
                 withCredentials: true
-            });
-            console.log(response, `<--loginRes`);
+            });            
+            return response;
+        }
+        catch (e) {
+            console.error('Error logging in', e);
+            throw e;
+        }
+    
+    }
+
+    static async logout() {
+        try {
+            const response = await axios.post(`http://localhost:3000/logout`, {},               
+            {
+                withCredentials: true
+            });            
             return response;
         }
         catch (e) {

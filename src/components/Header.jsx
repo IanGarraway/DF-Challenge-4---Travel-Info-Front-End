@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useCookies } from "react-cookie";
+import { useCookies  } from "react-cookie";
 import { useNavigate } from "react-router-dom";
 
 
@@ -14,6 +14,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import "./css/Header.css"
 import SavedList from "./SavedList.jsx"
 import isMobile from "../utils/MobileDetector.js";
+import AccountService from "../services/Account.service.js";
 
 
 const Header = ({ location, savedLocations, user, setUser, destinationSelect }) => {
@@ -23,13 +24,21 @@ const Header = ({ location, savedLocations, user, setUser, destinationSelect }) 
     const searchBoxValue = useRef();
     const [collapse, setCollapse] = useState("");
     const navigateTo = useNavigate();
+    const [cookies, setCookie] = useCookies(['username']);
+    
 
     const username = user;
 
     
 
-    const logoutFunction = () => {
-        setUser("");
+    const logoutFunction = async () => {
+        const response = await AccountService.logout();
+        if (response.status === 200) {
+            
+            setCookie('username', "", { path: '/', maxAge: 0 });
+            setUser("");
+            
+        }
         
     }
     const searchHandler = (e) => {        

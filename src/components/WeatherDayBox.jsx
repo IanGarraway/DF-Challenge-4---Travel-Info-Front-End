@@ -16,7 +16,7 @@ const WeatherDayBox = ({ weather, msg }) => {
             <div className="weatherBox">
                 <div> {msg} </div>
                 <div>{d}</div>
-                <div id="weatherImage"><img src={iconImage}></img></div>
+                <div id="weatherImage"><img src={iconImage} data-testid={"weatherImage"}></img></div>
                 <div>{weather_desc}</div>
             </div>
             

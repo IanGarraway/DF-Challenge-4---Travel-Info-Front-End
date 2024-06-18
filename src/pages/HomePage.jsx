@@ -37,7 +37,7 @@ const HomePage = ({ destinationSelect, location, setLocation}) => {
                                 onChange={handleChange}
                             />
                         </Form.Group>
-                         <Button className={["w-75", "align-self-center"]} size="lg" type="submit" >
+                         <Button className={["w-75", "align-self-center"]} size="lg" type="submit" data-testid={"searchButton"} >
                             Search...
                         </Button>
                     

@@ -24,7 +24,7 @@ import FavouritesService from "./services/Favourites.service.js";
 const App = () => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const [cookies] = useCookies(['username']);
+    const [cookies, setCookie, removeCookie] = useCookies(['username']);
     const [location, setLocation] = useState(["a"]);
     const [destination, setDestination] = useState("");
     const [savedLocations, setSavedLocations] = useState([]);
@@ -47,9 +47,9 @@ const App = () => {
 
     useEffect(() => {
         const cookie = cookies.username;
-        if (cookie != undefined) { setUser(cookie.name); }
+        if (cookie != undefined) { setUser(cookie); }
         
-    }, [])
+    }, [user])
 
     useEffect(() => {
         if (destination) {
@@ -70,11 +70,15 @@ const App = () => {
     }
 
     const getWeather = async (city) => {        
-        const weather = await GetData.weather(city);
-        setWeatherData(weather.weather);
+        const weatherData = await GetData.weather(city);
 
-        const newDestination = `${weather.city.name}, ${weather.city.country}`;
-        if(destination!= newDestination) destinationSelect(newDestination)
+        if (weatherData.status == 200) {
+            const weather = weatherData.data;
+            setWeatherData(weather.weather);
+
+            const newDestination = `${weather.city.name}, ${weather.city.country}`;
+            if (destination != newDestination) destinationSelect(newDestination)
+        }
         
     }
 
