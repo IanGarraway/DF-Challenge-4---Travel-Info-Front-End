@@ -1634,3 +1634,109 @@ Storing an AWT (Authentication Web Token) in a cookie involves several steps. He
    Store your secret keys and other sensitive configurations in environment variables, not in your source code.
 
 By following these steps, you can securely store and manage AWT tokens in cookies, allowing for authentication in your web application.
+
+
+## User Story generation
+
+### Prompt
+
+these are the user stories for the front end of the same app, # User Stories
+
+Kamban board v1
+User Story 1
+
+As the main stakeholder, I want the site to be laid out in the formats agreed, as shown by the wireframes, as this is how I want it to look.
+User Story 2
+
+As a user, I want the site to work on a mobile device, a tablet or a desktop, as I don't know what sort of device I will be using to access it and I want it to look good on any.
+User Story 3
+
+As a user, I want to see a location search box on the home page to make it easier to search for a town or city
+User Story 4
+
+As a user, I want to see a 5 day forecast for the location i search for, so I can be informed of what the weather will be like.
+User Story 5
+
+As a User, I want the weather forecast to be displayed like the wireframe, so it is easy to read.
+User Story 6
+
+As a user, I want to be able to register for an account, so I can store my preferences
+User Story 7
+
+As a user, I want to see a message confirming I successfully registered for an account, so I know I did so successfully.
+User Story 8
+
+As a user, I want to be able to log into my account using the same form, to make logging into the website consistent
+User Story 9
+
+As the owner, I want passwords to be at least 8 characters in length, have at least 1 uppercase character, 1 lowercase character, a number and a special character, to make it harder for people to brute-force crack their way into the site, damaging a users experience.
+User Story 10
+
+As a user, I want to be able to add a location as a favourite from the tell me about page, so I can review them later
+User Story 11
+
+As a user, I want to be able to remove a location as a favourite from the tell me about page if I had previously favourited it, so I can more conveniently control my favourites
+User Story 12
+
+As a User, I want to be able to see the locations I have favourited in a list, so I can review them.
+User Story 13
+
+As a user, I want to be able to remove a location from my favourites, when I no longer want to have it stored.
+User Story 14
+
+As a user, I only want to see the dropdown list of favourites, if I have favourites to have in it, so it doesn't have an empty box just sitting there
+
+can you make suggestions for the use of AWT tokens in cookies, the log out, and the two additional apis?
+
+### Response
+
+Certainly! Here are the suggested user stories for using JWT tokens in cookies, logging out, and integrating the map and hotel API proxy services:
+
+## User Story 15
+
+**As a front end, I want to store JWT tokens in secure cookies after user login, so that user sessions can be managed securely.**
+
+### Acceptance Criteria:
+- After a successful login, the JWT token is stored in a secure, HTTP-only cookie.
+- The token should have an appropriate expiration time set.
+- The secure flag should be set on the cookie to ensure it is only sent over HTTPS.
+
+## User Story 16
+
+**As a front end, I want to include JWT tokens from cookies in requests to backend services, so that authentication can be verified for each request.**
+
+### Acceptance Criteria:
+- Every request to a backend service should include the JWT token stored in the secure cookie.
+- The backend should validate the token and return an appropriate response if the token is missing or invalid.
+- The front end should handle cases where the token is expired or invalid and redirect the user to the login page.
+
+## User Story 17
+
+**As a user, I want to log out, so that my session is terminated and my JWT token is invalidated.**
+
+### Acceptance Criteria:
+- When the user logs out, the JWT token should be removed from the secure cookie.
+- Any subsequent requests using the invalidated token should be rejected by the backend.
+- The user should be redirected to the login page after logging out.
+
+## User Story 18
+
+**As a user, I want to see a map of the city I'm looking at, so that I can get a visual representation of the location.**
+
+### Acceptance Criteria:
+- The front end should send requests to the map API proxy service with the name of the city.
+- The map API proxy service should retrieve map data from a third-party map API and return it to the front end.
+- The front end should display the map of the specified city using the data returned from the map API proxy service.
+- The map should support basic interactions like zooming and panning.
+
+## User Story 19
+
+**As a user, I want to see a list of hotels in the city I'm looking at, so that I can find accommodation options.**
+
+### Acceptance Criteria:
+- The front end should send requests to the hotel API proxy service with the name of the city or coordinates.
+- The hotel API proxy service should retrieve hotel data from a third-party hotel API and return it to the front end.
+- The front end should display the list of hotels on the map, with markers indicating their locations.
+- Each hotel marker should be interactive, providing additional details like name, rating, and price when clicked.
+
+These user stories cover the functionalities of JWT token handling, logging out, and integrating map and hotel APIs. Let me know if you need any further details or additional user stories!

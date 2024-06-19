@@ -32,11 +32,15 @@ A service which could be offered would be for the user to gain updates regarding
 
 If the service ramps up in users, the chances are that a lot of them will be investigating the same cities. At present a request is made for the weather data from the service every time a client application makes a request of the server. This data doesn't change rapidly enough to necessitate this. The request data could be stored on the database and before sending a request to the API, it could check to see if a request had already been made in the last hour and reply to the front end with that data. This could potentially reduce expenses if the system receives a large volume of requests and while it would be additional processing on the server, it could also speed up the response to the client during heavy loads.
 
+### Local time
+
+One additional functionality could be the inclusion of the local time for a destination. For those interested in places outside of their own time zone, this could be useful for people arranging calls or virtual meetings to ensure that they are not picking an unsuitable time.
+
 ### Integration into other DFCorp products
 
 #### Secret Diary
 
-The login system could be used to extend to the DFCorps diary service, allowing a user to store and access their diary anywhere. This could be further enhanced by allowing the user to encrypt their entries before saving them to the server, ensuring that they are the only ones who could ever read it, assuming of course they remember their own encryption key.
+The login system could be used to extend to the DFCorps diary service, allowing a user to store and access their diary from anywhere. This could be further enhanced by allowing the user to encrypt their entries before saving them to the server, ensuring that they are the only ones who could ever read it, assuming of course they remember their own encryption key.
 
 #### Air Traffic Control service
 
