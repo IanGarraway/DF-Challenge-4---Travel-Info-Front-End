@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">30% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>9/30</span>
+                <span class='fraction'>30/30</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">50% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
-                <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
-            </div>
-        
-            
-            <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">30% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>9/30</span>
+                <span class='fraction'>30/30</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -97,27 +97,27 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -125,28 +125,28 @@
 &nbsp;
 import "./css/WeatherDayBox.css"
 &nbsp;
-const WeatherDayBox = <span class="fstat-no" title="function not covered" >({ weather, msg }) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >    if(!weather){return &lt;div&gt;Loading...&lt;/div&gt;}</span>
-<span class="cstat-no" title="statement not covered" >    </span>
-<span class="cstat-no" title="statement not covered" >    const { date, icon, weather_desc } = weather;</span>
-<span class="cstat-no" title="statement not covered" >    let d = new Date(date).toLocaleDateString("en-GB");</span>
-<span class="cstat-no" title="statement not covered" >    const iconImage = `../../assets/weather-icons/${icon}.svg`;</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    </span>
-<span class="cstat-no" title="statement not covered" >    return (</span>
-<span class="cstat-no" title="statement not covered" >        &lt;&gt;</span>
-<span class="cstat-no" title="statement not covered" >            &lt;div className="weatherBox"&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;div&gt; {msg} &lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;div&gt;{d}&lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;div id="weatherImage"&gt;&lt;img src={iconImage} data-testid={"weatherImage"}&gt;&lt;/img&gt;&lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;div&gt;{weather_desc}&lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >            &lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >            </span>
-<span class="cstat-no" title="statement not covered" >        &lt;/&gt;</span>
-<span class="cstat-no" title="statement not covered" >    );</span>
-<span class="cstat-no" title="statement not covered" >    </span>
-<span class="cstat-no" title="statement not covered" >}</span>
+const WeatherDayBox = ({ weather, msg }) =&gt; {
+    if(!weather)<span class="branch-0 cbranch-no" title="branch not covered" >{return &lt;div&gt;Loading...&lt;/div&gt;}</span>
+    
+    const { date, icon, weather_desc } = weather;
+    let d = new Date(date).toLocaleDateString("en-GB");
+    const iconImage = `../../assets/weather-icons/${icon}.svg`;
+&nbsp;
+&nbsp;
+    
+    return (
+        &lt;&gt;
+            &lt;div className="weatherBox"&gt;
+                &lt;div&gt; {msg} &lt;/div&gt;
+                &lt;div&gt;{d}&lt;/div&gt;
+                &lt;div id="weatherImage"&gt;&lt;img src={iconImage} data-testid={"weatherImage"}&gt;&lt;/img&gt;&lt;/div&gt;
+                &lt;div&gt;{weather_desc}&lt;/div&gt;
+            &lt;/div&gt;
+            
+        &lt;/&gt;
+    );
+    
+}
 &nbsp;
 &nbsp;
 &nbsp;
@@ -157,7 +157,7 @@ export default WeatherDayBox;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-06-18T18:09:11.719Z
+                at 2024-08-29T14:09:35.293Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
