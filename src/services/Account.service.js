@@ -28,7 +28,7 @@ export default class AccountService {
             return response;
         }
         catch (e) {
-            console.error('Error logging in', e);
+            console.error('Error logging out', e);
             throw e;
         }
     
