@@ -89,7 +89,7 @@ In researching how to use JWT tokens, it became apparent the best approach was t
 
 #### Formik and Yup
 
-While researching how to use React-bootstrap to make my user creation form, it was suggested by the page on forms to combine them with Formik and Yup to simplify the verification of these imputs. Yup allows you to create a schema of what the data should look like which integrates with Formik which verifies if it is acceptable or not and is able to inform the user of any failures.
+While researching how to use React-bootstrap to make my user creation form, it was suggested by the page on forms to combine them with Formik and Yup to simplify the verification of these inputs. Yup allows you to create a schema of what the data should look like which integrates with Formik which verifies if it is acceptable or not and is able to inform the user of any failures.
 
 ### Testing
 
